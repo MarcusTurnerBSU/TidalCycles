@@ -1,0 +1,11 @@
+d1 $ sound "bd!2 [sn] bd*4" # gain 2
+
+d2 $ sound "cr cr"
+
+d3 $ sound "co"
+
+d4 $ sound "crow*4" # gain 1
+
+d5 $ sound
+
+hush
