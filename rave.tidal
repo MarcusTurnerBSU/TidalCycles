@@ -1,0 +1,15 @@
+d1 $ sound "rave*2"
+
+d1 $ silence
+
+d2 $ "bd bd sn!2 bd [bd sn] bd*2 " # gain "11"
+
+d2 & silence
+
+d3 $ "arpy*4" # gain "10"
+
+d3 & silence
+
+d4 $ sound"bottle*100"
+
+hush
