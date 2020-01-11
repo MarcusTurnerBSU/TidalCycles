@@ -4,7 +4,7 @@ d2 $ sound "cr cr"
 
 d3 $ sound "co"
 
-d4 $ sound "crow*4" # gain 1
+d4 $ sound "crow*8" # gain 1
 
 d5 $ sound
 
