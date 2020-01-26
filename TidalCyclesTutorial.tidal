@@ -1,7 +1,48 @@
+-- << press ctrl + /
+
+-- more sequence
 d1 $ s "bd sd:1"
 
 d2 $ s "hh hh hh hh"
 
-d3 $ s
+d3 $ s "arpy"
+
+-- a cycle?
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound "bd sd hh cp mt arpy drum odx bd arpy bass2 feel future"
+
+-- pattens within pattens
+d1 $ sound "[bd sd sd] cp"
+
+d1 $ sound "bd [sd sd]"
+
+d1 $ sound "bd [sd sd sd]"
+
+d1 $ sound "bd [sd sd sd sd]"
+
+d1 $ sound "[bd bd] [sd sd sd sd]"
+
+d1 $ sound "[bd bd bd] [sd sd]"
+
+d1 $ sound "[bd bd bd bd] [sd]"
+
+d1 $ sound "[bd bd] [bd [sd [sd sd] sd] sd]"
+
+d1 $ sound "bd bd . sd sd sd . bd sd"
+
+d1 $ sound "[bd bd] [sd sd sd] [bd sd]"
+
+-- Layering
+d1 $ sound "[bd bd bd, sd cp sd cp]"
+
+d1 $ sound "[bd bd bd, sd cp sd cp, arpy arpy, odx]"
+
+d1 $ sound "[bd bd bd, [sd sd] cp, arpy [arpy [arpy arpy] arpy arpy], odx]"
+
+-- Playing one step per cycle
+
 
 hush
