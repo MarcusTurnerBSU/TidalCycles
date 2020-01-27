@@ -1,0 +1,7 @@
+d1 $ sound "bd*4 [sn*2]"
+
+d2 $ sound "arpy"
+
+d3 $ every # rev (sound "cr co")
+
+setcps 0.75
