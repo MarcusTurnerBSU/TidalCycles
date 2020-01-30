@@ -1,0 +1,15 @@
+setcps 0.7
+
+d1 $ s "bd*4 [sn:2]" # speed "-2"
+
+d2 $ s "arpy(2,4)"
+
+d3 $ s "[co cp]"
+
+d1 $ silence
+
+d2 $ silence
+
+d3 $ silence
+
+hush

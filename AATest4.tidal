@@ -1,0 +1,11 @@
+d1 $ rev (s "bd")
+
+d1 $ silence
+
+d2 $ "arpy(2,4)"
+
+d2 $ silence
+
+d3 $ s "co cp"
+
+d3 $ silence
