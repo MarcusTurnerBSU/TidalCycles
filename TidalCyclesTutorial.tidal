@@ -174,5 +174,27 @@ d1 $ up (run 8) # sound "arpy"
 d1 $ sound "arpy*8" # up (every 2 (rev) $ run 8)
 
 -- selecting samples
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound $ samples "drum*4" "0 1 2 3"
+
+d1 $ sound "drum:0 drum:1 drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+
+d1 $ sound $ samples "drum*4" (run 4)
+
+d1 $ s "drum arpy cp hh" # n (run 10)
+
+d1 $ n (run 10) # s "drum arpy cp hh"
+
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+-- combining types of patterns
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
 
 hush
